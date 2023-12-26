@@ -257,9 +257,11 @@ a {
 
 .vk-logo {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
-    flex-direction: column;
     margin: 0 auto;
     padding-top: 30px;
 }
